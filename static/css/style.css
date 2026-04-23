@@ -1,0 +1,88 @@
+.container{
+    border: 1px transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 70%;
+    height: 139vh;
+    padding: 1px  50px 50px 200px;
+
+    
+}
+
+.cadastro-box{
+    max-width: 400px;
+    width: 100%;
+    margin: 2;
+    border-radius: 20px;
+}
+
+.cadastro input{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.painel-direito{
+    background-color: #013c1e;
+    padding: 350px 80px 55px 30px;
+    margin: -12px 45px 30px 10px;
+    max-width: 300px;
+    height: 49vh;
+    border-radius: 20px;
+}
+
+.painel-direito img{
+    width: 100px;
+    padding: 0 130px 0 100px;
+    margin: 0px 0;
+
+   
+}
+
+.cadastro-btn button{
+    border-radius: 2px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 15px;
+    width: 100%;
+    background-color: rgb(1, 60, 30);
+}
+
+.criar{
+    color: rgb(1, 60, 30);
+    text-align: center;
+    padding-right: 15px;
+    font-size: 13px;
+    padding-top: 50px;
+
+}
+
+
+.texto-painel{
+    width: 100%;
+    max-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-login{
+    margin-top: 20px;
+    padding: 10px 25px ;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-login :hover{
+    background-color: white;
+    color: rgb(1, 68, 30);
+}
